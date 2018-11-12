@@ -25,7 +25,7 @@
       <file leaf-file-name="WaterBottle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="231">
               <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="e#97#98#0" expanded="true" />
@@ -37,10 +37,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WaterBottleTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <folding>
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrinterTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WaterBottleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WaterBottleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="480">
               <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,6 +112,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/WaterBottleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/WaterBottle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Printer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PrinterTest.java" />
       </list>
     </option>
   </component>
@@ -90,8 +125,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="68" />
+    <option name="x" value="-11" />
+    <option name="y" value="146" />
     <option name="width" value="1260" />
     <option name="height" value="669" />
   </component>
@@ -160,17 +195,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WaterBottleTest.fullBottle">
+  <component name="RunManager" selected="JUnit.PrinterTest.hasVolumeOfToner">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CalculatorTest.canDivide8by2AndGet4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrinterTest.canPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MondayLab" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="canDivide8by2AndGet4" />
+      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
+      <option name="METHOD_NAME" value="canPrint" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -181,13 +216,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WaterBottleTest.drinkRemoves10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrinterTest.canRefillPaper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MondayLab" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
-      <option name="METHOD_NAME" value="drinkRemoves10" />
+      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
+      <option name="METHOD_NAME" value="canRefillPaper" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -198,13 +233,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WaterBottleTest.emptyBottle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrinterTest.hasNumberOfPages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MondayLab" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
-      <option name="METHOD_NAME" value="emptyBottle" />
+      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
+      <option name="METHOD_NAME" value="hasNumberOfPages" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PrinterTest.hasVolumeOfToner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MondayLab" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrinterTest" />
+      <option name="METHOD_NAME" value="hasVolumeOfToner" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -222,23 +274,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
       <option name="METHOD_NAME" value="fullBottle" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WaterBottleTest.hasVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MondayLab" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
-      <option name="METHOD_NAME" value="hasVolume" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -288,19 +323,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest.canDivide8by2AndGet4" />
-      <item itemvalue="JUnit.WaterBottleTest.hasVolume" />
-      <item itemvalue="JUnit.WaterBottleTest.drinkRemoves10" />
-      <item itemvalue="JUnit.WaterBottleTest.emptyBottle" />
       <item itemvalue="JUnit.WaterBottleTest.fullBottle" />
+      <item itemvalue="JUnit.PrinterTest.hasNumberOfPages" />
+      <item itemvalue="JUnit.PrinterTest.canPrint" />
+      <item itemvalue="JUnit.PrinterTest.canRefillPaper" />
+      <item itemvalue="JUnit.PrinterTest.hasVolumeOfToner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrinterTest.hasVolumeOfToner" />
+        <item itemvalue="JUnit.PrinterTest.canRefillPaper" />
+        <item itemvalue="JUnit.PrinterTest.canPrint" />
+        <item itemvalue="JUnit.PrinterTest.hasNumberOfPages" />
         <item itemvalue="JUnit.WaterBottleTest.fullBottle" />
-        <item itemvalue="JUnit.WaterBottleTest.emptyBottle" />
-        <item itemvalue="JUnit.WaterBottleTest.drinkRemoves10" />
-        <item itemvalue="JUnit.WaterBottleTest.hasVolume" />
-        <item itemvalue="JUnit.CalculatorTest.canDivide8by2AndGet4" />
       </list>
     </recent_temporary>
   </component>
@@ -318,36 +353,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2018.11.12 at 14h 35m 35s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="PrinterTest_hasNumberOfPages - 2018.11.12 at 15h 54m 26s.xml">
+      <configuration name="PrinterTest.hasNumberOfPages" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2018.11.12 at 14h 35m 50s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="PrinterTest_canPrint - 2018.11.12 at 16h 36m 51s.xml">
+      <configuration name="PrinterTest.canPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_canAdd3To7AndGet10 - 2018.11.12 at 15h 01m 53s.xml">
-      <configuration name="CalculatorTest.canAdd3To7AndGet10" configurationId="JUnit" />
+    <history-entry file="PrinterTest_canPrint - 2018.11.12 at 16h 37m 15s.xml">
+      <configuration name="PrinterTest.canPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_canSubtract4From9AndGet5 - 2018.11.12 at 15h 04m 34s.xml">
-      <configuration name="CalculatorTest.canSubtract4From9AndGet5" configurationId="JUnit" />
+    <history-entry file="PrinterTest_canPrint - 2018.11.12 at 16h 37m 41s.xml">
+      <configuration name="PrinterTest.canPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_canMultiply6By3andGet18 - 2018.11.12 at 15h 07m 07s.xml">
-      <configuration name="CalculatorTest.canMultiply6By3andGet18" configurationId="JUnit" />
+    <history-entry file="PrinterTest_canPrint - 2018.11.12 at 16h 54m 57s.xml">
+      <configuration name="PrinterTest.canPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_canDivide8by2AndGet4 - 2018.11.12 at 15h 08m 52s.xml">
-      <configuration name="CalculatorTest.canDivide8by2AndGet4" configurationId="JUnit" />
+    <history-entry file="PrinterTest_canPrint - 2018.11.12 at 16h 55m 11s.xml">
+      <configuration name="PrinterTest.canPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WaterBottleTest_hasVolume - 2018.11.12 at 15h 20m 55s.xml">
-      <configuration name="WaterBottleTest.hasVolume" configurationId="JUnit" />
+    <history-entry file="PrinterTest_canPrint - 2018.11.12 at 16h 55m 21s.xml">
+      <configuration name="PrinterTest.canPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WaterBottleTest_drinkRemoves10 - 2018.11.12 at 15h 24m 59s.xml">
-      <configuration name="WaterBottleTest.drinkRemoves10" configurationId="JUnit" />
+    <history-entry file="PrinterTest_canPrint - 2018.11.12 at 16h 55m 46s.xml">
+      <configuration name="PrinterTest.canPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WaterBottleTest_emptyBottle - 2018.11.12 at 15h 37m 41s.xml">
-      <configuration name="WaterBottleTest.emptyBottle" configurationId="JUnit" />
+    <history-entry file="PrinterTest_canRefillPaper - 2018.11.12 at 17h 10m 52s.xml">
+      <configuration name="PrinterTest.canRefillPaper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrinterTest_hasVolumeOfToner - 2018.11.12 at 17h 14m 34s.xml">
+      <configuration name="PrinterTest.hasVolumeOfToner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="68" width="1260" height="669" extended-state="0" />
+    <frame x="-11" y="146" width="1260" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -358,7 +396,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27731094" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -413,22 +451,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WaterBottleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="480">
           <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -442,6 +467,48 @@
             <element signature="e#517#518#0" expanded="true" />
             <element signature="e#581#582#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
