@@ -22,24 +22,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+      <file leaf-file-name="WaterBottle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="235">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="e#97#98#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
+      <file leaf-file-name="WaterBottleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WaterBottleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="217">
+              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,12 +68,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WaterBottleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WaterBottle.java" />
       </list>
     </option>
   </component>
@@ -71,10 +90,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="20" />
+    <option name="y" value="68" />
     <option name="width" value="1260" />
     <option name="height" value="669" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -111,6 +132,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MondayLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MondayLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -132,43 +160,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.canDivide8by2AndGet4">
+  <component name="RunManager" selected="JUnit.WaterBottleTest.fullBottle">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MondayLab" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CalculatorTest.canAdd3To7AndGet10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MondayLab" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="canAdd3To7AndGet10" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="CalculatorTest.canDivide8by2AndGet4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MondayLab" />
@@ -187,13 +181,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculatorTest.canMultiply6By3andGet18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WaterBottleTest.drinkRemoves10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MondayLab" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="canMultiply6By3andGet18" />
+      <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
+      <option name="METHOD_NAME" value="drinkRemoves10" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -204,13 +198,47 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculatorTest.canSubtract4From9AndGet5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WaterBottleTest.emptyBottle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MondayLab" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="canSubtract4From9AndGet5" />
+      <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
+      <option name="METHOD_NAME" value="emptyBottle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WaterBottleTest.fullBottle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MondayLab" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
+      <option name="METHOD_NAME" value="fullBottle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WaterBottleTest.hasVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MondayLab" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
+      <option name="METHOD_NAME" value="hasVolume" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -260,19 +288,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.CalculatorTest.canAdd3To7AndGet10" />
-      <item itemvalue="JUnit.CalculatorTest.canSubtract4From9AndGet5" />
-      <item itemvalue="JUnit.CalculatorTest.canMultiply6By3andGet18" />
       <item itemvalue="JUnit.CalculatorTest.canDivide8by2AndGet4" />
+      <item itemvalue="JUnit.WaterBottleTest.hasVolume" />
+      <item itemvalue="JUnit.WaterBottleTest.drinkRemoves10" />
+      <item itemvalue="JUnit.WaterBottleTest.emptyBottle" />
+      <item itemvalue="JUnit.WaterBottleTest.fullBottle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WaterBottleTest.fullBottle" />
+        <item itemvalue="JUnit.WaterBottleTest.emptyBottle" />
+        <item itemvalue="JUnit.WaterBottleTest.drinkRemoves10" />
+        <item itemvalue="JUnit.WaterBottleTest.hasVolume" />
         <item itemvalue="JUnit.CalculatorTest.canDivide8by2AndGet4" />
-        <item itemvalue="JUnit.CalculatorTest.canMultiply6By3andGet18" />
-        <item itemvalue="JUnit.CalculatorTest.canSubtract4From9AndGet5" />
-        <item itemvalue="JUnit.CalculatorTest.canAdd3To7AndGet10" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -305,9 +333,21 @@
     <history-entry file="CalculatorTest_canMultiply6By3andGet18 - 2018.11.12 at 15h 07m 07s.xml">
       <configuration name="CalculatorTest.canMultiply6By3andGet18" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest_canDivide8by2AndGet4 - 2018.11.12 at 15h 08m 52s.xml">
+      <configuration name="CalculatorTest.canDivide8by2AndGet4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WaterBottleTest_hasVolume - 2018.11.12 at 15h 20m 55s.xml">
+      <configuration name="WaterBottleTest.hasVolume" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WaterBottleTest_drinkRemoves10 - 2018.11.12 at 15h 24m 59s.xml">
+      <configuration name="WaterBottleTest.drinkRemoves10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WaterBottleTest_emptyBottle - 2018.11.12 at 15h 37m 41s.xml">
+      <configuration name="WaterBottleTest.emptyBottle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1260" height="669" extended-state="0" />
+    <frame x="20" y="68" width="1260" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -319,7 +359,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -341,14 +381,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -358,12 +396,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#144#145#0" expanded="true" />
             <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WaterBottleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
           </folding>
         </state>
       </provider>
