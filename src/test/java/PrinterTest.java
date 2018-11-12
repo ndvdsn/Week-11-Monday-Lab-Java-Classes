@@ -38,6 +38,11 @@ public class PrinterTest {
 
     }
 
+    @Test
+    public void canAlterToner() {
+        int x = 10;
+        int y = 3;
 
-
+        assertEquals(70, printer.tonerTracksPaper(x, y));
+    }
 }

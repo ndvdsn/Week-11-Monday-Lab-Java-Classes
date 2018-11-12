@@ -34,6 +34,10 @@ public class Printer {
     }
 
 
-
+    public int tonerTracksPaper(int pages, int copies){
+        int totalPaper = pages * copies;
+        int result = (volumeOfToner - totalPaper);
+        return result;
+    }
 
 }
